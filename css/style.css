@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Comienzo de estilos body/títulos */
+body {
+    text-align: center;
+    width: 60% auto;
+    height: 50em;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+}
+
+h3 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+/* Fin de estilos títulos */
+
+/* Comienzo estilos header/nav */
+header {
+    width: 70% auto;
+    background-color:rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80% auto;
+    margin: 1em 0;
+    padding: 1em 0;
+    border-top: 3.5px solid rgb(0, 0, 0);
+    border-bottom: 3.5px solid rgb(99, 96, 96);
+}
+/* Fin de estilos header/nav */
+
+/* Comienzo de estilos p/li/a */
+p, li,a {
+    font-family: 'Special Elite', cursive;
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(87, 85, 85);
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+ul {
+    list-style: none;
+    color:grey
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 0 2em;
+    line-height: 1.5em
+}
+
+a {
+    text-decoration: none;
+}
+/* Fin de estilos p/li/a */
+/* Comienzo de estilos header/main/img */
+header, main {
+    width: 75% auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0.9em 0;
+}
+
+main> img:hover {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    transition: 2s ;
+}
+/* fin de estilos header/main/img */
+/* Comienzo class header/main/img/nav */
+.main-container{
+    width: 70% auto;
+    height: 50% auto;
+    padding: 0.5em 4em;
+    margin: 1em 6em;
+    background-color: hsl(0, 0%, 100%);
+    border: 5px double black;
+    box-shadow: 0 1em 0 1.5em rgb(230, 228, 228);
+}
+
+
+.data-container {
+    width: 65% auto;
+    padding: 0.3em 3em;
+    margin: 1em 5em;
+    border: 3px solid rgb(252, 249, 249);
+}
+
+.content-title {
+    margin: 1em 0;
+}
+
+.main> a {
+    color:red
+}
+
+.main>a:hover {
+    color: rgb(51, 49, 49);
+}
+
+.nav :hover {
+    color: red;
+}
+
+/* Fin de estilos class header/main/img/nav*/
